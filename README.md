@@ -17,9 +17,11 @@ The code for this project is split into five main sections for each of the steps
 **setup()** function creates a "project1" directory within the current working directory.  Working directory is then set to "project1".
 
 > setup <- function(){
+>
 >	#create folder for project
 >		dir.create("project1")
 >	#change wd to created folder
+
 >		wd <- getwd()
 >	wd_new <- paste0(wd,"/project1")
 >	setwd(wd_new)
